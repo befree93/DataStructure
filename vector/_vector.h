@@ -100,7 +100,7 @@ void _vector<T>::reverse()
 template<typename T>
 T& _vector<T>:: operator[](const unsigned int &i)const
 {
-	//if (i >= 0 && i < sz)
+	if (i >= 0 && i < sz)
 		return v[i];
 }
 template<typename T>
